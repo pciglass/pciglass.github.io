@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PCI Glass</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="images/pcilogo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCv7Vnf0Gtfl__qW0YuD0Nnrj26PioLNBE&callback=initMap" async defer></script>
+
+
+</head>
+
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Unit 15 - 75 Milliken Blvd, Scarborough, ON M1V 1R3</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 08.00 AM - 05.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>647-978-8894 (中文)</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>416-297-5959 (EN)</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://x.com/pciglass?s=21&t=btSR2ZKHzknkua5Lw9jHZA"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <div class="d-flex align-items-center">
+                <img src="images/pcilogo.png" alt="Your Image Alt Text" style="height: 40px;"> <!-- Adjust the height as needed -->
+                <h2 class="m-0 text-primary ms-2">PCI GLASS</h2>
+            </div>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#services" class="nav-item nav-link">Our Services</a>
+                <a href="#products" class="nav-item nav-link">Our Products</a>
+                <a href="#gallery" class="nav-item nav-link">Production Photos</a>
+                <a href="#contact-us" class="nav-item nav-link">Contact Us</a>
+            </div>
+            <a href="#get-quote" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div id = "home" class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="images/caro1.JPG" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .7);">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Planet Construction Industry Glass</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">We are Glass Craftsmanship Experts</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">We specialize in insulated glass units, special shaped glass, and more!</p>
+                                <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">About Us</a>
+                                <a href="#get-quote" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Get a Free Quote Today</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="images/caro2.JPG" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .7);">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Planet Construction Industry Glass</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">GRAND OPENING! Promotional Pricing Apply.</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">We specialize in insulated glass units, special shaped glass, and more!</p>
+                                <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">About Us</a>
+                                <a href="#get-quote" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Get a Free Quote Today</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="images/caro3.JPG" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .7);">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To PCI Glass</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Best Glass Craftmanship Services</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">We specialize in insulated glass units, special shaped glass, and more!</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Feature Start -->
+    <div id="about" class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-2 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa fa-user-check fa-2x text-primary"></i>
+                        </div>
+                        <h1 class="display-1 text-light mb-0">01</h1>
+                    </div>
+                    <h5>Excellent Craftsmanship</h5>
+                </div>
+                <div class="col-md-2 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa fa-check fa-2x text-primary"></i>
+                        </div>
+                        <h1 class="display-1 text-light mb-0">02</h1>
+                    </div>
+                    <h5>High Quality Products</h5>
+                </div>
+                <div class="col-md-2 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa-solid fa-tag fa-2x text-primary"></i>
+                        </div>
+                        <h1 class="display-1 text-light mb-0">03</h1>
+                    </div>
+                    <h5>Competitive Pricing</h5>
+                </div>
+                <div class="col-md-2 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa-solid fa-truck-fast fa-2x text-primary"></i>
+                        </div>
+                        <h1 class="display-1 text-light mb-0">04</h1>
+                    </div>
+                    <h5>Next-Day Delivery</h5>
+                </div>
+                <div class="col-md-2 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa-solid fa-award fa-2x text-primary"></i>
+                        </div>
+                        <h1 class="display-1 text-light mb-0">05</h1>
+                    </div>
+                    <h5>5 Year Warranty</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="images/aboutus.JPG" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="section-title text-start">
+                            <h1 class="display-5 mb-4">About Us</h1>
+                        </div>
+                        <p class="mb-4 pb-2">Planet Construction Industry Glass offers over a decade of expertise in insulating glass window and door services in the 
+                            Greater Toronto Area (GTA). We take pride in delivering top-notch safety glass at affordable rates. Our in-house factory handles everything 
+                            from cutting and design to shipping, ensuring a quick turnaround and the most competitive pricing in the market.</p>
+                        <div class="row g-4 mb-4 pb-2">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                                        <i class="fa fa-users fa-2x text-primary"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h2 class="text-primary mb-1" data-toggle="counter-up">10</h2>
+                                        <p class="fw-medium mb-0">Years of Experience</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                                        <i class="fa fa-check fa-2x text-primary"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h2 class="text-primary mb-1" data-toggle="counter-up">957</h2>
+                                        <p class="fw-medium mb-0">Projects Done</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a href="#contact-us" class="btn btn-primary py-3 px-5">COntac</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div id = "services" class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Our Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="images/serv1.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Insulated Glass</h4>
+                            <p>We offer a variety of glass types such as clear, low-e, tempered, frosted, etc.</p>
+                            <!-- <a class="fw-medium" href="feature.html">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="images/serv2.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Special Shaped Glass</h4>
+                            <p>We offer a variety of special shaped glass that is completely customizable.</p>
+                            <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="images/serv3.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Spacers</h4>
+                            <p>We offer aluminum and warm edge spacers in black and white.</p>
+                            <!-- <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/service-4.jpg" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Wooden Floor</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/service-5.jpg" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Wooden Furniture</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/service-6.jpg" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">Custom Work</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Products Start -->
+    <div id="products" class="container-fluid bg-light overflow-hidden my-5 px-lg-5">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-12 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <div class="section-title text-start">
+                            <h1 class="display-5 mb-4">Our Products</h1>
+                        </div>
+                        <p class="mb-4 pb-2">We offer a variety of glass and spacers products.</p>
+                        <table>
+                            <tr>
+                                <td class="product-col">&#8226; 3/4/5/6mm Clear and Low-e Glass</td>
+                                <td class="product-col">&#8226; Low-e Glass 低辐射玻璃</td>
+                            </tr>
+                            <tr>
+                                <td class="product-col">&#8226; Double-layer Insulated Glass Unit (IGU) 双层中空玻璃单元</td>
+                                <td class="product-col">&#8226; Tempered Glass 钢化玻璃</td>
+                            </tr>
+                            <tr>
+                                <td class="product-col">&#8226; Triple Insulating Glass 三层中空玻璃</td>
+                                <td class="product-col">&#8226; Frosted Glass 磨砂玻璃</td>
+                            </tr>
+                            <tr>
+                                <td class="product-col">&#8226; Fluted Glass 凹槽玻璃</td>
+                                <td class="product-col">&#8226; Rain Glass 雨玻璃</td>
+                            </tr>
+                            <tr>
+                                <td class="product-col">&#8226; Special-Shaped Glass 异形玻璃</td>
+                                <td class="product-col">&#8226; Warm Edge Spacer in Black and White</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Products End -->
+
+
+    
+    <!-- Gallery Start -->
+    <div id = "gallery" class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Production Photos</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <!-- <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Insulated Glass</li>
+                        <li class="mx-2" data-filter=".second">Spacers</li>
+                    </ul> -->
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/prod1.JPG" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/prod1.JPG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                        <!-- <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">General Carpentry</p>
+                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/prod7.JPG" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/prod7.JPG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                        <!-- <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
+                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/prod3.JPG" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/prod3.JPG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                        <!-- <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">General Carpentry</p>
+                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/prod4.JPG" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/prod4.JPG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                        <!-- <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
+                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/prod5.JPG" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/prod5.JPG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                        <!-- <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">General Carpentry</p>
+                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/prod6.JPG" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/prod6.JPG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                        <!-- <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
+                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+
+    <!-- Quote Start -->
+    <div id = "get-quote" class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="images/quote.JPG" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="section-title text-start">
+                            <h1 class="display-5 mb-4">Get a Free Quote</h1>
+                        </div>
+                        <p class="mb-4 pb-2">For a free cost estimate, contact us at 647-978-8894 (Chinese) or 416-297-5959 (English) or you can email us at PCIGLASS@gmail.com. You can expect to receive a response within a day or by the next business day.
+                            <br>
+                            <br>
+                            <a href="tel:647-978-8894" class="btn btn-primary me-3">请致电</a>
+                            <a href="tel:416-297-5959" class="btn btn-primary me-3">Call Us</a>
+                            <a href="mailto:PCIGLASS@gmail.com" class="btn btn-primary">Email Us</a>
+                        </p>
+                        <!-- <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-5 border-light border-top-0 p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Testimonial</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 90px; height: 90px;">
+                    <div class="testimonial-text text-center p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 90px; height: 90px;">
+                    <div class="testimonial-text text-center p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 90px; height: 90px;">
+                    <div class="testimonial-text text-center p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div id = "contact-us" class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <h1 class="display-5 mb-5 text-light">Contact Us</h1>
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>647-978-8894 (中文)</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>416-297-5959 (EN)</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>PCIGLASS@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://x.com/pciglass?s=21&t=btSR2ZKHzknkua5Lw9jHZA"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Unit 15 - 75 Milliken Blvd, Scarborough, ON M1V 1R3</p>
+                    <p class="mb-2"><i class="fa-solid fa-clock me-3"></i>Mon - Fri : 08.00 AM - 05.00 PM</p>
+                </div>
+                <!-- New Column with Image -->
+                <div class="col-lg-6 col-md-12">
+                    <img src="images/map.png" alt="Your Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">PCIGlass</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
